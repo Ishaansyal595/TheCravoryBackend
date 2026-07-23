@@ -17,7 +17,7 @@ console.log("API KEY:", process.env.CLOUDINARY_API_KEY);
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://the-cravory.vercel.app",
     credentials: true,
   }),
 );
